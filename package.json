@@ -1,0 +1,23 @@
+{
+  "name": "crud-sistema-de-filmes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bserver.js)\u001b[C",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrysMello/CRUD-Sistema-de-filmes.git"
+  },
+  "author": "Crystiane Caldeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrysMello/CRUD-Sistema-de-filmes/issues"
+  },
+  "homepage": "https://github.com/CrysMello/CRUD-Sistema-de-filmes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12"
+  }
+}
