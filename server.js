@@ -1,13 +1,13 @@
 const express = require("express");
 const app = express();
 
-const banco = require("./src/data/database")
+const banco = require("./src/data/database");
 
-banco.connect()
+banco.connect();
 
-app.use(express.json())
+app.use(express.json());
 
-const filmsRouter = require("./src/routes/filmes.routes")
-app.use("/filmes",filmsRouter)
+const filmsRouter = require("./src/routes/filmes.routes");
+app.use("/filmes", filmsRouter);
 
-app.listen(1984, ()=> console.log("Servidor rodando"))
+app.listen(3030, () => console.log("Servidor rodando"));
